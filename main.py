@@ -14,6 +14,10 @@ getTable = [i for i in getTable if "Series shaded" not in str(i)]
 
 for i in range(len(getTable)):
     getTable[i] = getTable[i].get_text().replace('\n','')
+    
+    if '[' in getTable[i]:
+        pos = getTable[i].find('[')
+        getTable[i] = getTable[i][0:pos]
 
 final_records = {}
     
