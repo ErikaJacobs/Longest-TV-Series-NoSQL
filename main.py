@@ -37,7 +37,8 @@ for i in range(0, len(getTable), 6):
 show_list = list(final_records.keys())
 show_list.sort()
 show_list_dup = [i for i in show_list if 'Law & Order' in i or 'CSI' in i or 'NCIS' in i]
-show_list_main = [i for i in show_list if i not in show_list_dup]
+show_list_old = [i for i in show_list if 'Fireside Theatre' in i or 'Lux Video Theatre' in i or 'The Loretta Young Show' in i]
+show_list_main = [i for i in show_list if i not in show_list_dup and i not in show_list_old]
 
 
 issues = []
@@ -58,9 +59,6 @@ for i in show_list_main:
             
         except:
             issues.append(i)
-        
-        
-print(issues)
 
 # NSI, CSI, Law & Order
 
