@@ -36,6 +36,9 @@ Python main.py
 # Featured Scripts or Deliverables
 * [```main.py```](main.py)
 
+# Other Repository Contents
+* [```requirements.txt```](requirements.txt) - Python package requirements
+
 # Sources
 * [TV Maze API](https://www.tvmaze.com/api)
 * [Wikipedia list of longest running scripted U.S. primetime television series](https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series)
