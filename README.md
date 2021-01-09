@@ -18,7 +18,6 @@ This project scrapes data from a Wikipedia table for [longest running scripted U
 
 ##### *AWS Credentials*
 AWS Credentials will need to be saved locally in the .aws directory of an operating system in order for this project to successfully run. [Click here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) to learn more about this process.
-
 ##### *Install Requirements and Run*
 On the command line of your operating system, navigate to the repository directory (ideally using a Python virtual environment).
 
