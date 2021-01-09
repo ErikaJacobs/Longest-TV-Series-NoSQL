@@ -9,10 +9,12 @@ This project scrapes data from a Wikipedia table for [longest running scripted U
 ## Technologies Used
 * Python
 * DynamoDB
+* NoSQL
 
 ## Packages Used
 * Requests
 * Boto3
+* bs4
 
 ## How To Run
 
