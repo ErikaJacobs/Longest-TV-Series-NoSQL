@@ -4,12 +4,11 @@
 import requests
 import boto3
 import time
+from bs4 import BeautifulSoup
 
 def create_data():
     page_source = 'https://en.wikipedia.org/wiki/List_of_longest-running_scripted_U.S._primetime_television_series'
     source = requests.get(page_source).text
-    
-    from bs4 import BeautifulSoup
     
     soup = BeautifulSoup(source, 'lxml')
     getTable = list(soup.find_all('td'))
